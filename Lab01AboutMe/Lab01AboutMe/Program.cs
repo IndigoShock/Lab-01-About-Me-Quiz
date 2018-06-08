@@ -21,6 +21,7 @@ namespace Lab01AboutMe
             Console.ReadLine();
         }
 
+        //The NameQuestion method asks user for input on my name and checks if they get it correct. If they don't, they receive the answer no.
         public static string NameQuestion()
         {
             string userValue = Console.ReadLine().ToLower();
@@ -35,6 +36,8 @@ namespace Lab01AboutMe
             }
             return userValue;
         }
+
+        //CatQuestion method asks for user to input an integer. No matter which answer they input, it will return the value. But if they get the answer correct, the message will change.
 
         private static int CatQuestion()
         {
@@ -53,6 +56,7 @@ namespace Lab01AboutMe
             }
         }
 
+        //ImprovQuestion asks for user to input true or false. If they do type in true, the boolean true will come forth and mark answer as correct. If false, then will return message saying not quite.
         public static bool ImprovQuestion()
         {
             string userValue = Console.ReadLine().ToLower();
@@ -70,6 +74,7 @@ namespace Lab01AboutMe
             }
         }
 
+        //CrisisQuestion asks for user input. If user inputs friday, answer will put forth message expressing they are correct. Otherwise, message will say no.
         public static string CrisisQuestion()
         {
             string userValue = Console.ReadLine().ToLower();
@@ -84,6 +89,8 @@ namespace Lab01AboutMe
             }
             return userValue;
         }
+
+        //CheesecakeQuestion is boolean question asking for user input. If user puts 'true', output will return true with message expressing they are correct. Otherwise, answer will be false.
 
         public static bool CheesecakeQuestion()
         {
