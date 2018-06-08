@@ -10,4 +10,4 @@ The program can be run in the Visual Studio Console application. Recommend insta
 - What does the program look like?
 The program looks like a text game. It is run in the console so it is basic. Each question is different. Some have different return types such as booleans (true/false), integers (numbers) or strings (regular words).
 
-![GameInAction](assets/AboutMeQuizImage.JPG)
+![GameInAction](../assets/AboutMeQuizImage.JPG)
